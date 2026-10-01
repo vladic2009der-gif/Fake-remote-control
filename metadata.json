@@ -1,0 +1,6 @@
+{
+  "name": "IR Remote Pro",
+  "description": "Премиальный универсальный пульт дистанционного управления для ТВ, проекторов, кондиционеров и аудиосистем с эмуляцией сигналов",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- IR Signal waves emitting from top of remote -->
+    <path
+        android:pathData="M48,22 A7,7 0 0,1 60,22"
+        android:strokeColor="#FF3B30"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M44,18 A12,12 0 0,1 64,18"
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M40,14 A17,17 0 0,1 68,14"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+
+    <!-- Remote body (outer metallic frame) -->
+    <path
+        android:pathData="M41,27 L67,27 A7,7 0 0,1 74,34 L74,83 A7,7 0 0,1 67,90 L41,90 A7,7 0 0,1 34,83 L34,34 A7,7 0 0,1 41,27 Z"
+        android:fillColor="#1E293B"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="1.5" />
+
+    <!-- Remote inner faceplate -->
+    <path
+        android:pathData="M42,29 L66,29 A5,5 0 0,1 71,34 L71,82 A5,5 0 0,1 66,87 L42,87 A5,5 0 0,1 37,82 L37,34 A5,5 0 0,1 42,29 Z"
+        android:fillColor="#0F172A" />
+
+    <!-- IR diode bulb on top edge of remote -->
+    <path
+        android:pathData="M52,26 L56,26 A2,2 0 0,1 58,28 L50,28 A2,2 0 0,1 52,26 Z"
+        android:fillColor="#FF3B30" />
+
+    <!-- Power button (red) -->
+    <path
+        android:pathData="M42,35 A3,3 0 1,1 42,41 A3,3 0 1,1 42,35 Z"
+        android:fillColor="#EF4444" />
+
+    <!-- Input / Source button (blue) -->
+    <path
+        android:pathData="M66,35 A3,3 0 1,1 66,41 A3,3 0 1,1 66,35 Z"
+        android:fillColor="#38BDF8" />
+
+    <!-- D-Pad outer ring -->
+    <path
+        android:pathData="M54,48 A9,9 0 1,1 54,66 A9,9 0 1,1 54,48 Z"
+        android:fillColor="#1E293B"
+        android:strokeColor="#334155"
+        android:strokeWidth="1" />
+
+    <!-- D-Pad OK center button (cyan accent) -->
+    <path
+        android:pathData="M54,54 A3,3 0 1,1 54,60 A3,3 0 1,1 54,54 Z"
+        android:fillColor="#00E5FF" />
+
+    <!-- Volume / Channel rockers (minimalist rounded rects) -->
+    <path
+        android:pathData="M41,71 L46,71 A2,2 0 0,1 48,73 L48,81 A2,2 0 0,1 46,83 L41,83 A2,2 0 0,1 39,81 L39,73 A2,2 0 0,1 41,71 Z"
+        android:fillColor="#273549" />
+    <path
+        android:pathData="M62,71 L67,71 A2,2 0 0,1 69,73 L69,81 A2,2 0 0,1 67,83 L62,83 A2,2 0 0,1 60,81 L60,73 A2,2 0 0,1 62,71 Z"
+        android:fillColor="#273549" />
+
+    <!-- Center menu button -->
+    <path
+        android:pathData="M52,74 L56,74 A1.5,1.5 0 0,1 57.5,75.5 L57.5,78.5 A1.5,1.5 0 0,1 56,80 L52,80 A1.5,1.5 0 0,1 50.5,78.5 L50.5,75.5 A1.5,1.5 0 0,1 52,74 Z"
+        android:fillColor="#475569" />
+</vector>
